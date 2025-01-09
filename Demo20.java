@@ -1,9 +1,15 @@
-public class Demo20 {
+import java.util.Scanner;
+
+public class MinutesToYearsAndDays {
     public static void main(String[] args) {
       
-        long minutes = 5256000;
+        Scanner scanner = new Scanner(System.in);
 
-  
+   
+        System.out.print("Enter the number of minutes: ");
+        long minutes = scanner.nextLong();
+
+    
         int minutesInHour = 60;
         int hoursInDay = 24;
         int daysInYear = 365;
@@ -12,7 +18,9 @@ public class Demo20 {
         long years = totalDays / daysInYear;
         long remainingDays = totalDays % daysInYear;
 
-
         System.out.println(minutes + " minutes is approximately " + years + " years and " + remainingDays + " days.");
+
+    
+        scanner.close();
     }
 }
