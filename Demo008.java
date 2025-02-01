@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Demo08 {
+class Demo008 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String loginid = "";
