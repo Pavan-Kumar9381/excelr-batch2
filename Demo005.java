@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Demo05{
+class Demo005{
     public static void main(String[] args) {
         
         String validUsername = "001";
