@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Demo09 {
+class Demo009 {
     String Cust_Name = "Pavan kumar";
     long Account_no = 123456;
     Double Balance = 10000.00;
@@ -20,7 +20,7 @@ class Demo09 {
     }
 
     public static void main(String[] args) {
-        Demo09 obj = new Demo09();
+        Demo09 obj = new Demo009();
         obj.accept_details();
         obj.Display_details();
     }
